@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2744573D1BA515DD007B4BE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2744573C1BA515DD007B4BE3 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		277C1DE51B90C057005B75C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277C1DE41B90C057005B75C3 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
 		27E33E9D1B900D25009F110D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E33E9C1B900D25009F110D /* AppDelegate.swift */; };
-		27E33E9F1B900D25009F110D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E33E9E1B900D25009F110D /* ViewController.swift */; };
 		27E33EA21B900D25009F110D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E33EA01B900D25009F110D /* Main.storyboard */; };
-		27E33EA41B900D25009F110D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E33EA31B900D25009F110D /* Assets.xcassets */; };
 		27E33EA71B900D25009F110D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E33EA51B900D25009F110D /* LaunchScreen.storyboard */; };
 		27E33EB21B900D25009F110D /* ElevensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E33EB11B900D25009F110D /* ElevensTests.swift */; };
 		27E33EBD1B900D25009F110D /* ElevensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E33EBC1B900D25009F110D /* ElevensUITests.swift */; };
+		27E33ECB1B90BBE4009F110D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E33ECA1B90BBE4009F110D /* Card.swift */; settings = {ASSET_TAGS = (); }; };
+		27E33ECD1B90BEAC009F110D /* ElevensBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E33ECC1B90BEAC009F110D /* ElevensBoard.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2744573C1BA515DD007B4BE3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		274B02511BACD00A0066BD1A /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		277C1DE41B90C057005B75C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27E33E991B900D25009F110D /* Elevens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elevens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E33E9C1B900D25009F110D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27E33E9E1B900D25009F110D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27E33EA11B900D25009F110D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27E33EA31B900D25009F110D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27E33EA61B900D25009F110D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		27E33EA81B900D25009F110D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27E33EAD1B900D25009F110D /* ElevensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E33EB11B900D25009F110D /* ElevensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevensTests.swift; sourceTree = "<group>"; };
 		27E33EB31B900D25009F110D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27E33EB81B900D25009F110D /* ElevensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E33EBC1B900D25009F110D /* ElevensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevensUITests.swift; sourceTree = "<group>"; };
 		27E33EBE1B900D25009F110D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E33ECA1B90BBE4009F110D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		27E33ECC1B90BEAC009F110D /* ElevensBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevensBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				27E33E9C1B900D25009F110D /* AppDelegate.swift */,
-				27E33E9E1B900D25009F110D /* ViewController.swift */,
 				27E33EA01B900D25009F110D /* Main.storyboard */,
-				27E33EA31B900D25009F110D /* Assets.xcassets */,
+				2744573C1BA515DD007B4BE3 /* ViewController.swift */,
 				27E33EA51B900D25009F110D /* LaunchScreen.storyboard */,
-				27E33EA81B900D25009F110D /* Info.plist */,
+				27E33ECA1B90BBE4009F110D /* Card.swift */,
+				27E33ECC1B90BEAC009F110D /* ElevensBoard.swift */,
+				277C1DE41B90C057005B75C3 /* Images.xcassets */,
+				274B02511BACD00A0066BD1A /* MyPlayground.playground */,
 			);
 			path = Elevens;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 				TargetAttributes = {
 					27E33E981B900D25009F110D = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4Z7ANJT7GM;
 					};
 					27E33EAC1B900D25009F110D = {
 						CreatedOnToolsVersion = 7.0;
@@ -228,8 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277C1DE51B90C057005B75C3 /* Images.xcassets in Resources */,
 				27E33EA71B900D25009F110D /* LaunchScreen.storyboard in Resources */,
-				27E33EA41B900D25009F110D /* Assets.xcassets in Resources */,
 				27E33EA21B900D25009F110D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E33E9F1B900D25009F110D /* ViewController.swift in Sources */,
+				27E33ECB1B90BBE4009F110D /* Card.swift in Sources */,
 				27E33E9D1B900D25009F110D /* AppDelegate.swift in Sources */,
+				2744573D1BA515DD007B4BE3 /* ViewController.swift in Sources */,
+				27E33ECD1B90BEAC009F110D /* ElevensBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +407,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Elevens/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mike.Elevens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -409,10 +424,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Elevens/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mike.Elevens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -483,6 +504,7 @@
 				27E33EC31B900D25009F110D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27E33EC41B900D25009F110D /* Build configuration list for PBXNativeTarget "ElevensTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +513,7 @@
 				27E33EC61B900D25009F110D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27E33EC71B900D25009F110D /* Build configuration list for PBXNativeTarget "ElevensUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +522,7 @@
 				27E33EC91B900D25009F110D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
