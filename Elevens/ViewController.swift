@@ -141,7 +141,7 @@ class ViewController: UIViewController {
     
     @IBAction func replaceCards(sender:UIButton)
     {
-        if(!debug)
+        if(!debug && selected.count < 4)
         {
             if(selected.count == 2)
             {
